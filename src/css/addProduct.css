@@ -1,0 +1,50 @@
+.add-product-body .title {
+  font-size: 4vh;
+  font-weight: 800;
+  margin: 1em 0 0;
+}
+
+.add-product-form label {
+  margin: 0.5em 0;
+}
+
+.add-product-form .add-product-input {
+  border-radius: 15px;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(0, 0, 0, 0.345);
+  width: 25vw;
+}
+
+.add-product-trigger {
+  margin-top: 1em;
+}
+
+.manage-body-link {
+  margin-right: 1em;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+}
+
+.manage-body-link p,
+.manage-body-button p {
+  margin: 0;
+}
+
+.manage-body-button {
+  padding: 0.4em 1em;
+  background: #00bfff;
+  border-radius: 15px;
+}
+
+.manage-body-button i {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
+
+.unit {
+  transform: translate(17em, -1.8em);
+  font-weight: 600;
+  font-size: 1.2em;
+}

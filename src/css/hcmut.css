@@ -1,0 +1,31 @@
+.HCMUT-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+  height: 13%;
+}
+
+.HCMUT-logo__img {
+  width: 100%;
+  height: 100%;
+}
+
+#HCMUT-id {
+  width: 60%;
+  margin-left: 1em;
+}
+
+.HCMUT-slogan-nav-link {
+  text-decoration: none;
+}
+
+.HCMUT-slogan-nav-link .line1 {
+  font-weight: bold;
+}
+
+.HCMUT-slogan-nav-link p {
+  color: black;
+  font-size: 1.2em;
+  margin: 0;
+}
