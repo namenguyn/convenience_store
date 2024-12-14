@@ -1,0 +1,21 @@
+.receipt .titlePage {
+  font-size: 1.7em;
+  font-weight: 800;
+  padding-top: 1.5em;
+}
+
+.form-receipt .startDate .titleDate,
+.form-receipt .endDate .titleDate {
+  margin-bottom: 0.2em;
+}
+
+.form-receipt .startDate .dateBox,
+.form-receipt .endDate .dateBox {
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 0.5em 1em;
+}
+
+.receipt .scroll-table {
+  margin-bottom: 1em;
+}

@@ -1,0 +1,91 @@
+.manage-product-body .titlePage {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding-top: 1.5em;
+}
+
+.button-cancel {
+  margin-right: 10vh;
+  margin-left: 31vh;
+}
+
+.edit-trigger .manage-body-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+  font-size: 2.5vh;
+}
+
+.edit-trigger .manage-body-link i {
+  margin-right: 0.5em;
+}
+
+.edit-trigger .manage-body-link p {
+  margin: 0;
+}
+
+.btn-product {
+  border: 1px solid rgba(0, 0, 0, 0.399);
+  background-color: none;
+  border-radius: 20px;
+  width: 6em;
+  height: 2em;
+}
+
+.check-product {
+  width: 17.5em;
+}
+
+.btn-product i {
+  margin-right: 0.5em;
+}
+
+.table-product {
+  table-layout: auto;
+}
+
+.table-product-tool {
+  padding: 1em 1.5em;
+}
+
+.table-product-btn {
+  width: 37em;
+}
+
+.table-product-btn .note {
+  font-weight: 600;
+  color: black;
+}
+
+.delete-product i,
+.delete {
+  color: red;
+}
+
+.filter-product i,
+.edit,
+.view {
+  color: rgb(0, 110, 255);
+}
+
+.add-product i {
+  color: green;
+}
+
+.view,
+.edit {
+  margin-right: 1em;
+}
+
+.view,
+.edit,
+.delete {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.add-product:hover {
+  background-color: rgb(187, 184, 184);
+}

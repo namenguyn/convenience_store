@@ -1,0 +1,35 @@
+.table-product {
+  height: auto;
+  width: fit-content;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.table {
+  width: 80vw;
+  height: 43vh;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.adjustRow {
+  height: calc(43vh / 6);
+}
+
+.display-table-label {
+  margin-left: 0.5em;
+}
+
+.display-table-select {
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+.scroll-table {
+  overflow: auto;
+  max-height: 46vh;
+  max-width: 80vw;
+}

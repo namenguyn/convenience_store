@@ -1,0 +1,42 @@
+.barChart {
+  width: 45vw;
+  height: 45vh;
+  margin-top: 1em;
+}
+
+.horizontalBarChart {
+  width: 45vw;
+  height: 45vh;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.report-body .title {
+  font-size: 1.7em;
+  font-weight: 700;
+  padding-top: 1.5em;
+}
+
+.report-body .revenueOfStore {
+  margin-left: 3em;
+}
+
+.contributeOfProduct .titleDate {
+  margin-right: 1em;
+}
+
+.contributeOfProduct .startDate {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.contributeOfProduct .dateBox {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0.3em 1em;
+}
+
+.contributeOfProduct .trigger-date:hover {
+  color: white;
+  border: 1px solid white;
+}
