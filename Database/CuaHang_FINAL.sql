@@ -1,4 +1,4 @@
-﻿CREATE DATABASE CuaHang;
+CREATE DATABASE CuaHang;
 GO
 -- Tạo bảng Nhân viên
 CREATE TABLE NhanVien (
@@ -2292,13 +2292,14 @@ CREATE TABLE admins (
     username VARCHAR(255) NOT NULL UNIQUE, 
     password VARCHAR(255) NOT NULL,
 );
-
+select * from admins
+SET IDENTITY_INSERT admins ON;
 -- Insert the new data
 INSERT INTO admins (id, username, password) VALUES
 ('1','nam.nguyen', '2212142');
 INSERT INTO admins (id, username, password) VALUES
 ('2','phat.oi', '2212512');
-
+SET IDENTITY_INSERT admins OFF;
 DECLARE @sql NVARCHAR(MAX) = N'';
 
 SELECT @sql += 'SELECT * FROM ' + QUOTENAME(TABLE_SCHEMA) + '.' + QUOTENAME(TABLE_NAME) + ';' + CHAR(13)
