@@ -11,7 +11,7 @@ function AdminLogo() {
         className="logo-link d-flex align-items-center justify-content-center"
       >
         <i className="bx bx-user-circle"></i>
-        <p className="admin-name">Phát</p>
+        <p className="admin-name">Admin</p>
       </NavLink>
     </div>
   );
