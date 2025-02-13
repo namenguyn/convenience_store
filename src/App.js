@@ -18,11 +18,13 @@ import Receipt from "./js/receipt/receipt";
 import { Route, Routes } from "react-router-dom";
 import CheckStorage from "./js/product/checkStorage";
 import ShowGoods from "./js/product/showGoods";
+import LoginPage from "./js/Login/login";
 function App() {
   return (
     <div className="wrapper">
       <Routes className="routes">
-        <Route path="/" Component={Home} />
+        <Route path="/" Component={LoginPage} /> 
+        <Route path="/Home" Component={Home} />
 
         <Route path="/product_manage" Component={ManageProduct} />
         <Route path="/product_manage/add" Component={AddProduct} />
