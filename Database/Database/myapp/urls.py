@@ -1,11 +1,14 @@
 from django.urls import path
-from .views import NhanVien_views, HangHoaViews,RevenueViews
+from .views import NhanVien_views, HangHoaViews,RevenueViews, view
+from django.http import HttpResponse
 
 urlpatterns = [
+     # Trang chủ
+
+    # Trang đăng nhập
+    path('', view.login ),
     # read nhanvien---------------------------------------------------------------
     path('read_all_NhanVien/', NhanVien_views.read_all_NhanVien),
-    path('read_all_NhanVien/', NhanVien_views.read_all_NhanVien),
-
     path('read_one_NhanVien/', NhanVien_views.read_one_NhanVien),
     path('read_fulltime_NhanVien/', NhanVien_views.read_fulltime_NhanVien),
     path('read_parttime_NhanVien/', NhanVien_views.read_parttime_NhanVien),
