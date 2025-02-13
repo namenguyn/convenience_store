@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ga+Maamli&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Play:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+.login {
+  text-align: center;
+  background-color: #cdebe4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}
+
+.login .navbar {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  background-color: #74c6ec;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.login .navbar button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 16em;
+}
+
+.login .navbar button.active {
+  background-color: #1388b6;
+  color: #fafafa;
+}
+
+.login .content-container {
+  background-color: #e8f0d8;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 20em;
+  height: 40vh;
+  text-align: center;
+}
+
+.login .header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #4b704b;
+}
+
+.login .header h2 {
+  font-size: 16px;
+  margin: 5px 0 20px;
+  color: #b5c4ed;
+}
+
+.login input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #216d8b;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin-bottom: 1.5em;
+}
+
+.login button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #d9fa1d;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login button:hover {
+  background-color: #98caec;
+}
+
+.login .company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18vw;
+  height: 10vh;
+  background: #d6e4f1;
+  border-radius: 20px;
+  transform: translateY(1.3em);
+  border: 1px solid #6363e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.449);
+  border-radius: 15px;
+}
+
+.login .company .title-company {
+  font-size: 2em;
+  color: #166ac3;
+  font-family: "Oswald", serif;
+}
+
